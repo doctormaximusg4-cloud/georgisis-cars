@@ -1,3 +1,8 @@
 [build]
   base = "KazaltzisCars"
-  publish = "."
+  publish = "KazaltzisCars"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
