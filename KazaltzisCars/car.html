@@ -13,7 +13,7 @@
 async function load(){
   const params=new URLSearchParams(location.search);
   const id=parseInt(params.get("id"));
-  const r=await fetch("data/cars.json");
+  const r = await fetch("data/cars.json", { cache: "no-store" });
   const cars=await r.json();
   const car=cars.find(c=>c.id===id);
   const el=document.getElementById("details");
