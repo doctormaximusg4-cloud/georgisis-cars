@@ -64,6 +64,21 @@
       "id": 9,
       "description": "GIA TA MPAZA",
       "year": 1975
+    },
+    {
+      "color": "SKOURIAS",
+      "brand": "BMW",
+      "price": 1000,
+      "model": "E125",
+      "kilometers": 600000,
+      "published": true,
+      "fuel": "BENZIN",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 9,
+      "description": "GIA PETAMA",
+      "year": 2000
     }
   ]
 }
