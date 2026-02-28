@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoMarket</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>🚗 Georgisis Cars</h1></header>
+
+<section class="filters">
+  <select id="brandFilter">
+    <option value="">Όλες οι Μάρκες</option>
+    <option>BMW</option><option>Mercedes</option><option>Audi</option>
+    <option>Toyota</option><option>Volkswagen</option>
+  </select>
+  <input type="number" id="maxPrice" placeholder="Μέγιστη Τιμή">
+  <button onclick="render()">Αναζήτηση</button>
+</section>
+
+<section id="cars" class="cars"></section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
