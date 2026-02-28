@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+<link rel="stylesheet" href="css/style.css">
+<style>input,textarea{display:block;margin:8px 0;padding:6px;width:320px}</style>
+</head>
+<body>
+<script>
+const pass=prompt("Admin password:");
+if(pass!=="1234"){location.href="index.html";}
+</script>
+<h2 style="padding:10px">Admin Panel</h2>
+
+<div style="padding:10px">
+<input id="brand" placeholder="Μάρκα">
+<input id="model" placeholder="Μοντέλο">
+<input id="price" placeholder="Τιμή">
+<input id="year" placeholder="Χρονολογία">
+<input id="km" placeholder="Χιλιόμετρα">
+<input id="fuel" placeholder="Καύσιμο">
+<textarea id="images" placeholder="URLs εικόνων, χωρισμένα με κόμμα"></textarea>
+<textarea id="desc" placeholder="Περιγραφή"></textarea>
+<label>Δημοσίευση <input type="checkbox" id="published"></label>
+<button onclick="saveCar()">Αποθήκευση</button>
+</div>
+
+<h3 style="padding:10px">Λίστα</h3>
+<div id="list" style="padding:10px"></div>
+
+<h3 style="padding:10px">cars.json</h3>
+<textarea id="jsonEditor" style="width:90%;height:200px;margin:10px"></textarea><br>
+<button onclick="downloadJSON()">Κατέβασε cars.json</button>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

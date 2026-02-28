@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Λεπτομέρειες</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>Λεπτομέρειες Αυτοκινήτου</h1></header>
+<div id="details" style="padding:20px"></div>
+<script>
+async function load(){
+  const params=new URLSearchParams(location.search);
+  const id=parseInt(params.get("id"));
+  const r=await fetch("data/cars.json");
+  const cars=await r.json();
+  const car=cars.find(c=>c.id===id);
+  const el=document.getElementById("details");
+  if(!car){el.innerHTML="Δεν βρέθηκε";return;}
+  let g="";
+  car.images.forEach(i=>g+=`<img src="${i}" style="width:100%;margin:10px 0;border-radius:10px;">`);
+  el.innerHTML=`<h2>${car.brand} ${car.model}</h2>${g}
+  <p>${car.description}</p>
+  <h3>€${car.price}</h3>
+  <p>${car.year} • ${car.kilometers} km • ${car.fuel}</p>
+  <button onclick="history.back()">⬅ Πίσω</button>`;
+}
+load();
+</script>
+</body>
+</html>
