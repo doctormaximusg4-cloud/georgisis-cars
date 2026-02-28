@@ -61,21 +61,9 @@
         "https://i.postimg.cc/XY37jPGP/1.png",
         "https://i.postimg.cc/XY37jPGP/1.png"
       ],
-      "id": 57,
+      "id": 9,
       "description": "GIA TA MPAZA",
       "year": 1975
-    },
-    {
-      "color": "Σκουρια",
-      "brand": "BMW",
-      "price": 12000,
-      "model": "E123",
-      "kilometers": 164998,
-      "published": true,
-      "fuel": "BENZIN",
-      "id": 8,
-      "description": "Μοτερ για πέταμα",
-      "year": 2001
     }
   ]
 }
