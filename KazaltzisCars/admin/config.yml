@@ -11,7 +11,7 @@ collections:
   - name: "cars"
     label: "Αυτοκίνητα"
     files:
-      - file: "data/cars.json"
+      - file: "KazaltzisCars/data/cars.json"
         label: "Κατάλογος Αυτοκινήτων"
         name: "carsjson"
         format: "json"
