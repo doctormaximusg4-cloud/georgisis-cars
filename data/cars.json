@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "brand": "BMW",
+      "brand": "AUDI",
       "price": 12500,
-      "model": "E120",
-      "kilometers": 120000,
+      "model": "A6",
+      "kilometers": 130000,
       "published": true,
       "fuel": "Diesel",
       "images": [
@@ -12,9 +12,20 @@
         "https://i.postimg.cc/XY37jPGP/1.png",
         "https://i.postimg.cc/XY37jPGP/1.png"
       ],
-      "id": 1,
+      "id": 2,
       "description": "Το Μοτέρ φυσάει",
-      "year": 2015
+      "year": 2018
+    },
+    {
+      "brand": "OPEL",
+      "price": 18000,
+      "model": "CORSA",
+      "kilometers": 199998,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 3,
+      "description": "ATRAKARISTO",
+      "year": 2010
     }
   ]
 }
