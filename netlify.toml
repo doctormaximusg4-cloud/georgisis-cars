@@ -1,8 +1,0 @@
-[build]
-  base = "KazaltzisCars"
-  publish = "KazaltzisCars"
-
-[[redirects]]
-  from = "/admin/*"
-  to = "/admin/index.html"
-  status = 200
