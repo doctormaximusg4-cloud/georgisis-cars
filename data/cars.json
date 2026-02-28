@@ -26,6 +26,17 @@
       "id": 3,
       "description": "ATRAKARISTO",
       "year": 2010
+    },
+    {
+      "brand": "RENAULT",
+      "price": 10000,
+      "model": "CAPTUR",
+      "kilometers": 162999,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 4,
+      "description": "ATRAKARISTO",
+      "year": 2015
     }
   ]
 }
