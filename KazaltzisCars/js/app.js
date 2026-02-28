@@ -1,6 +1,6 @@
 let cars=[];
 async function init(){
-  const r=await fetch('data/cars.json');
+  const r = await fetch("data/cars.json", { cache: "no-store" });
   cars=await r.json();
   render();
 }
