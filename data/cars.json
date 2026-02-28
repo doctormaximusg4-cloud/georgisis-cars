@@ -1,34 +1,53 @@
 {
   "items": [
     {
-      "id": 1,
-      "brand": "BMW",
-      "model": "M4",
-      "year": 2022,
-      "fuel": "Βενζίνη",
-      "price": 48000,
-      "kilometers": 15000,
+      "brand": "AUDI",
+      "price": 12500,
+      "model": "A6",
+      "kilometers": 130000,
+      "published": true,
+      "fuel": "Diesel",
       "images": [
-        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738",
-        "https://images.unsplash.com/photo-1511910849309-0dffb8785146"
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
       ],
-      "description": "Άριστη κατάσταση, full extra.",
-      "published": true
+      "id": 2,
+      "description": "Το Μοτέρ φυσάει",
+      "year": 2018
     },
     {
-      "id": 2,
-      "brand": "Mercedes",
-      "model": "C200",
-      "year": 2021,
-      "fuel": "Πετρέλαιο",
-      "price": 36500,
-      "kilometers": 22000,
-      "images": [
-        "https://images.unsplash.com/photo-1549924231-f129b911e442",
-        "https://images.unsplash.com/photo-1502877338535-766e1452684a"
-      ],
-      "description": "Συντηρημένο σε επίσημη αντιπροσωπεία.",
-      "published": true
+      "brand": "OPEL",
+      "price": 18000,
+      "model": "CORSA",
+      "kilometers": 199998,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 3,
+      "description": "ATRAKARISTO",
+      "year": 2010
+    },
+    {
+      "brand": "RENAULT",
+      "price": 10000,
+      "model": "CAPTUR",
+      "kilometers": 162999,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 4,
+      "description": "ATRAKARISTO",
+      "year": 2015
+    },
+    {
+      "brand": "MAZDA3",
+      "price": 498,
+      "model": "NAGASAKI",
+      "kilometers": 980000,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 57,
+      "description": "GIA TA MPAZA",
+      "year": 1975
     }
   ]
 }
