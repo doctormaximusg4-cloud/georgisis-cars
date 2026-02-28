@@ -37,6 +37,17 @@
       "id": 4,
       "description": "ATRAKARISTO",
       "year": 2015
+    },
+    {
+      "brand": "MAZDA",
+      "price": 498,
+      "model": "NAGASAKI",
+      "kilometers": 980000,
+      "published": true,
+      "fuel": "DIESEL",
+      "id": 2,
+      "description": "GIA TA MPAZA",
+      "year": 1975
     }
   ]
 }
