@@ -79,6 +79,21 @@
       "id": 10,
       "description": "GIA PETAMA",
       "year": 2000
+    },
+    {
+      "color": "ΓΚΡΙ",
+      "brand": "HYUNDAI",
+      "price": 7000,
+      "model": "I30",
+      "kilometers": 120000,
+      "published": true,
+      "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/wTRYFL4B/6553431ea225b.jpg"
+      ],
+      "id": 11,
+      "description": "ΚΑΛΟΥΤΣΙΚΟ",
+      "year": 2015
     }
   ]
 }
