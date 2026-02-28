@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Λεπτομέρειες Αυτοκινήτου</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">KC</div>
+      <div>
+        <div class="title">Kazaltzis Cars</div>
+        <div class="subtitle">Λεπτομέρειες Αγγελίας</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a class="navlink" href="index.html">Αρχική</a>
+      <a class="navlink" href="admin/">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="crumbs">
+      <a href="index.html">← Πίσω στις αγγελίες</a>
+    </div>
+
+    <section class="detailWrap">
+      <div class="galleryCard">
+        <div class="galleryMain">
+          <img id="mainImg" alt="Φωτογραφία" />
+        </div>
+        <div id="thumbs" class="thumbs"></div>
+      </div>
+
+      <div class="detailCard">
+        <div class="detailHeader">
+          <h1 id="title">—</h1>
+          <div id="price" class="price">—</div>
+        </div>
+
+        <div class="specs">
+          <div class="spec"><span>Έτος</span><b id="year">—</b></div>
+          <div class="spec"><span>Χιλιόμετρα</span><b id="km">—</b></div>
+          <div class="spec"><span>Καύσιμο</span><b id="fuel">—</b></div>
+        </div>
+
+        <p id="desc" class="desc">—</p>
+
+        <div class="actions">
+          <a class="btn" href="index.html">Αναζήτηση</a>
+          <a class="btn btnGhost" href="admin/">Admin</a>
+        </div>
+
+        <div class="hint" id="detailHint"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/car.js"></script>
+</body>
+</html>
