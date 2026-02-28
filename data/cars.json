@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "color": "kokkino",
       "brand": "AUDI",
       "price": 12500,
       "model": "A6",
@@ -17,6 +18,7 @@
       "year": 2018
     },
     {
+      "color": "sdadsasdasda",
       "brand": "OPEL",
       "price": 18000,
       "model": "CORSA",
@@ -31,6 +33,7 @@
       "year": 2010
     },
     {
+      "color": "dasdasdasdasd",
       "brand": "RENAULT",
       "price": 10000,
       "model": "CAPTUR",
@@ -46,6 +49,7 @@
       "year": 2015
     },
     {
+      "color": "qweqwewqeqweq",
       "brand": "MAZDA3",
       "price": 498,
       "model": "NAGASAKI",
