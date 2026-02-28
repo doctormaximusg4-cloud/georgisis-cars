@@ -189,3 +189,13 @@ input::placeholder{color:rgba(255,255,255,.45)}
   .detailWrap{grid-template-columns: 1fr}
   select,input{min-width: 160px}
 }
+.whatsappBtn{
+  background: #25D366;
+  border: none;
+  color: white !important;
+  font-weight: 700;
+}
+
+.whatsappBtn:hover{
+  background: #1ebe5d;
+}
