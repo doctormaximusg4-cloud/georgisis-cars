@@ -1,7 +1,7 @@
 let allCars = [];
 
 async function fetchCars(){
-  const url = `KazaltzisCars/data/cars.json?v=${Date.now()}`;
+  const url = `data/cars.json?v=${Date.now()}`;
   const res = await fetch(url, { cache: "no-store" });
   if(!res.ok) throw new Error("Failed to load cars.json");
   const data = await res.json();
