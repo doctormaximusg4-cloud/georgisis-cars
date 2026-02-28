@@ -23,6 +23,9 @@
       "kilometers": 199998,
       "published": true,
       "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
       "id": 3,
       "description": "ATRAKARISTO",
       "year": 2010
@@ -34,6 +37,10 @@
       "kilometers": 162999,
       "published": true,
       "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
       "id": 4,
       "description": "ATRAKARISTO",
       "year": 2015
@@ -45,6 +52,11 @@
       "kilometers": 980000,
       "published": true,
       "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
       "id": 57,
       "description": "GIA TA MPAZA",
       "year": 1975
