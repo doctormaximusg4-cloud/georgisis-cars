@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "brand": "BMW",
+      "price": 12500,
+      "model": "E120",
+      "kilometers": 120000,
+      "published": true,
+      "fuel": "Diesel",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 103,
+      "year": 2015
+    }
+  ]
+}
