@@ -74,6 +74,7 @@ async function init(){
   try{
     allCars = await fetchCars();
     renderBrands(allCars);
+    initCustomBrandSelect();
     render();
     hint.textContent = "       ";
   }catch(e){
