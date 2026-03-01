@@ -266,3 +266,14 @@ input::placeholder{color:rgba(255,255,255,.45)}
   border-color: rgba(98,130,255,.65);
   box-shadow: 0 0 0 4px rgba(98,130,255,.18);
 }
+@media (max-width: 520px){
+  .glassFilters{
+    padding: 12px;
+    border-radius: 16px;
+  }
+  .glassFilters select,
+  .glassFilters input,
+  .glassFilters .btn{
+    width: 100%;
+  }
+}
