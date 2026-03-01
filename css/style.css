@@ -338,3 +338,4 @@ select optgroup{
 
 /* Force dark UI where supported */
 :root{ color-scheme: dark; }
+}
