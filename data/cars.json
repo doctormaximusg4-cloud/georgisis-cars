@@ -103,6 +103,20 @@
       "id": 12,
       "description": "Αγροτικο",
       "year": 2010
+    },
+    {
+      "brand": "PORSCHE",
+      "price": 4,
+      "model": "CARERRA",
+      "kilometers": 950000,
+      "published": true,
+      "fuel": "LPG",
+      "images": [
+        "https://i.postimg.cc/HWFCzXj7/pa-aio-sapio-autokineto-58559482.webp"
+      ],
+      "id": 13,
+      "description": "Το Μοτέρ ειναι ατρακάριστο και χωρίς γρατζουνιά",
+      "year": 2026
     }
   ]
 }
