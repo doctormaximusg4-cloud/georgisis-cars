@@ -270,9 +270,3 @@ input::placeholder{color:rgba(255,255,255,.45)}
 #fuelFilter option:hover {
   background-color: #222;
 }
-.cardMeta {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
