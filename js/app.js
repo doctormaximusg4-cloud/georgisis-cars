@@ -60,7 +60,7 @@ function render(){
   } else {
     grid.innerHTML = cars.map(cardHTML).join("");
   }
-  hint.textContent = "Έτοιμο.";
+  hint.textContent = "       ";
 }
 
 function openCar(id){
@@ -75,7 +75,7 @@ async function init(){
     allCars = await fetchCars();
     renderBrands(allCars);
     render();
-    hint.textContent = "Έτοιμο.";
+    hint.textContent = "       ";
   }catch(e){
     console.error(e);
     hint.textContent = "Σφάλμα φόρτωσης δεδομένων. Έλεγξε το data/cars.json.";
