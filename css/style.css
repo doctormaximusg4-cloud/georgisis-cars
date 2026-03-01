@@ -221,3 +221,8 @@ input::placeholder{color:rgba(255,255,255,.45)}
   70%{ box-shadow:0 0 0 18px rgba(37,211,102,0); }
   100%{ box-shadow:0 0 0 0 rgba(37,211,102,0); }
 }
+.footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
