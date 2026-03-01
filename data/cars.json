@@ -100,6 +100,21 @@
       "id": 11,
       "description": "ΚΑΛΟΥΤΣΙΚΟ",
       "year": 2015
+    },
+    {
+      "color": "ΑΣΠΡΟ",
+      "brand": "SUZUKI",
+      "price": 1998,
+      "model": "VITARA",
+      "kilometers": 250000,
+      "published": true,
+      "fuel": "Βενζίνη",
+      "images": [
+        "https://i.postimg.cc/K8sVqkbh/bmw2.jpg"
+      ],
+      "id": 13,
+      "description": "οκ",
+      "year": 2015
     }
   ]
 }
