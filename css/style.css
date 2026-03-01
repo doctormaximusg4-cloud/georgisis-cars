@@ -318,3 +318,15 @@ input::placeholder{color:rgba(255,255,255,.45)}
   display: none;
 }
 
+/* Safe: only styles the closed select control */
+select{
+  background-color: rgba(0,0,0,.35);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+select:focus{
+  outline: none;
+  border-color: rgba(98,130,255,.65);
+  box-shadow: 0 0 0 4px rgba(98,130,255,.18);
+}
