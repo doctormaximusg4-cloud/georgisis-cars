@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "brand": "AUDI",
+      "price": 12500,
+      "model": "A6",
+      "kilometers": 130000,
+      "published": true,
+      "fuel": "Diesel",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 2,
+      "description": "Τύπος / έκδοση\nΔΕΡΜΑ-AUTO-NAVI-40 TDI 204 HP-ΕΛΛΗΝΙΚΟ.\nΤιμή\n33.500 €\nΚατάσταση\nΜεταχειρισμένο\nΚατηγορία\nΛιμουζίνα / Sedan \nΧρονολογία \n1 / 2020\nΧιλιόμετρα\n68.000 χλμ\nΚαύσιμο\nΥβριδικό πετρέλαιο\nΚυβικά\n2.000 cc\nΙπποδύναμη\n204 hp\nΣασμάν\nΑυτόματο\nΧρώμα\nΜαύρο (Μεταλλικό)\nΧρώμα εσωτερικού\nΜπεζ\nΕπένδυση σαλονιού\nΔέρμα\nΚΤΕΟ μέχρι\n3 / 2027\nΜέγεθος ζάντας\n18 ίντσες\nΚλάση ρύπων\nEuro 6\nΤέλη κυκλοφορίας\n107 €\nΚατανάλωση\n5 (Μικτό) λ / 100χλμ\nΠινακίδα\nΆγνωστη\nΣύνολο κατόχων\n1\nΚίνηση τροχών\nΠροσθιοκίνητο (FWD)\nΠόρτες\n5\nΘέσεις επιβατών\n5",
+      "year": 2018
+    },
+    {
+      "brand": "OPEL",
+      "price": 18000,
+      "model": "CORSA",
+      "kilometers": 199998,
+      "published": true,
+      "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 3,
+      "description": "ATRAKARISTO",
+      "year": 2010
+    },
+    {
+      "brand": "RENAULT",
+      "price": 10000,
+      "model": "CAPTUR",
+      "kilometers": 162999,
+      "published": true,
+      "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 4,
+      "description": "ATRAKARISTO",
+      "year": 2015
+    },
+    {
+      "brand": "MAZDA3",
+      "price": 498,
+      "model": "NAGASAKI",
+      "kilometers": 980000,
+      "published": true,
+      "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 9,
+      "description": "GIA TA MPAZA",
+      "year": 1975
+    },
+    {
+      "brand": "BMW",
+      "price": 1000,
+      "model": "E125",
+      "kilometers": 600000,
+      "published": true,
+      "fuel": "BENZIN",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 10,
+      "description": "GIA PETAMA",
+      "year": 2000
+    },
+    {
+      "brand": "HYUNDAI",
+      "price": 7000,
+      "model": "I30",
+      "kilometers": 120000,
+      "published": true,
+      "fuel": "DIESEL",
+      "images": [
+        "https://i.postimg.cc/XY37jPGP/1.png",
+        "https://i.postimg.cc/XY37jPGP/1.png"
+      ],
+      "id": 11,
+      "description": "ΚΑΛΟΥΤΣΙΚΟ",
+      "year": 2015
+    }
+  ]
+}
