@@ -30,7 +30,6 @@ collections:
               - { label: "Τιμή (€)", name: "price", widget: "number" }
               - { label: "Χιλιόμετρα", name: "kilometers", widget: "number" }
               - { label: "Περιγραφή", name: "description", widget: "text" }
-              - { label: "Χρώμα", name: "color", widget: "string" }
               - label: "Εικόνες (URLs)"
                 name: "images"
                 widget: "list"
