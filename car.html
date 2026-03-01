@@ -6,14 +6,17 @@
   <title>Λεπτομέρειες Αυτοκινήτου</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-  <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/306944337735?text=Γεια σας, ενδιαφέρομαι για ένα αυτοκίνητο από το site σας"
-   class="whatsapp-float"
-   target="_blank"
-   aria-label="WhatsApp">
-   💬
-</a>
+
 <body class="car-page">
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/306944337735?text=Γεια σας, ενδιαφέρομαι για ένα αυτοκίνητο από το site σας"
+     class="whatsapp-float"
+     target="_blank"
+     aria-label="WhatsApp">
+     💬
+  </a>
+
   <header class="topbar">
     <div class="brand">
       <div class="logo">KC</div>
@@ -24,7 +27,6 @@
     </div>
     <nav class="nav">
       <a class="navlink" href="index.html">Αρχική</a>
-     
     </nav>
   </header>
 
@@ -55,24 +57,33 @@
 
         <p id="desc" class="desc">—</p>
 
+        <!-- Κρατάμε το link αλλά του δίνουμε class για να το κρύψουμε εύκολα με CSS -->
         <div class="actions">
-          <a class="btn" href="index.html">Αναζήτηση</a>
-          
-         </a>
-         </div>
-         <footer class="footer">
-  <div class="footer-main">
-    © <span id="year"></span> Kazaltzis Cars
-  </div>
+          <a class="btn btn-search" href="index.html">Αναζήτηση</a>
+        </div>
 
-  <div class="footer-credit">
-    Powered by <span>Mintsog Productions</span>
-  </div>
-</footer>
         <div class="hint" id="detailHint"></div>
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      © <span id="footerYear"></span> Kazaltzis Cars
+    </div>
+
+    <div class="footer-credit">
+      Powered by <span>Mintsog Productions</span>
+    </div>
+  </footer>
+
+  <script>
+    // Footer year (μοναδικό id για να μην συγκρούεται με το id="year" του αυτοκινήτου)
+    document.addEventListener("DOMContentLoaded", () => {
+      const fy = document.getElementById("footerYear");
+      if (fy) fy.textContent = new Date().getFullYear();
+    });
+  </script>
 
   <script src="js/car.js"></script>
 </body>
