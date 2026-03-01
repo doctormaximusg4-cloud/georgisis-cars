@@ -66,11 +66,11 @@ function toggleLightbox(src){
 }
 /* ------------------------------------- */
 
-async function init(){
-  const params = new URLSearchParams(location.search);
-  const id = Number(params.get("id"));
-  const hint = document.getElementById("detailHint");
-
+}catch (e) {
+  console.error("LOAD ERROR:", e);
+  hint.textContent =
+    "Σφάλμα φόρτωσης δεδομένων: " + (e?.message || e);
+}
   try{
     const cars = await fetchCars();
     const car = cars.find(c => Number(c.id) === id);
