@@ -294,7 +294,6 @@ input::placeholder{color:rgba(255,255,255,.45)}
 body.car-page .filters {
   display: none;
 }
-/* Κρύψε το κουμπί Αναζήτηση στη σελίδα car.html */
-body.car-page #searchBtn {
+body.car-page .btn-search{
   display: none;
 }
