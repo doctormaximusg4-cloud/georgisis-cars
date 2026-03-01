@@ -90,3 +90,30 @@ async function init(){
   });
 }
 document.addEventListener("DOMContentLoaded", init);
+function initCustomBrandSelect() {
+  const select = document.getElementById("brandSelect");
+  const selected = select.querySelector(".select-selected");
+  const itemsContainer = select.querySelector(".select-items");
+
+  const brands = uniqSorted(allCars.map(c => c.brand));
+  const options = ["Όλες οι Μάρκες", ...brands];
+
+  itemsContainer.innerHTML = "";
+
+  options.forEach(value => {
+    const div = document.createElement("div");
+    div.textContent = value;
+    div.addEventListener("click", function() {
+      selected.textContent = value;
+      document.getElementById("brandFilterValue").value =
+        value === "Όλες οι Μάρκες" ? "" : value;
+      itemsContainer.classList.add("select-hide");
+      render();
+    });
+    itemsContainer.appendChild(div);
+  });
+
+  selected.addEventListener("click", function() {
+    itemsContainer.classList.toggle("select-hide");
+  });
+}
