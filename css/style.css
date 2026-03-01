@@ -317,8 +317,4 @@ input::placeholder{color:rgba(255,255,255,.45)}
 .select-hide {
   display: none;
 }
-/* Safe desktop select readability */
-select{
-  background:#0b0d12;
-  color:#fff;
-}
+
