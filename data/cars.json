@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "color": "Κοκκινοc",
+     
       "brand": "AUDI",
       "price": 12500,
       "model": "A6",
@@ -23,7 +23,7 @@
       "year": 2020
     },
     {
-      "color": "sdadsasdasda",
+      
       "brand": "OPEL",
       "price": 18000,
       "model": "CORSA",
@@ -38,7 +38,7 @@
       "year": 2010
     },
     {
-      "color": "dasdasdasdasd",
+      
       "brand": "RENAULT",
       "price": 10000,
       "model": "CAPTUR",
@@ -54,7 +54,7 @@
       "year": 2015
     },
     {
-      "color": "qweqwewqeqweq",
+      
       "brand": "MAZDA3",
       "price": 498,
       "model": "NAGASAKI",
@@ -71,7 +71,7 @@
       "year": 1975
     },
     {
-      "color": "SKOURIAS",
+      
       "brand": "BMW",
       "price": 1000,
       "model": "E125",
@@ -86,7 +86,7 @@
       "year": 2000
     },
     {
-      "color": "ΓΚΡΙ",
+     
       "brand": "HYUNDAI",
       "price": 7000,
       "model": "I30",
@@ -102,7 +102,7 @@
       "year": 2015
     },
     {
-      "color": "ΑΣΠΡΟ",
+     
       "brand": "SUZUKI",
       "price": 1998,
       "model": "VITARA",
