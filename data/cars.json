@@ -89,6 +89,20 @@
       "id": 11,
       "description": "ΚΑΛΟΥΤΣΙΚΟ.",
       "year": 2015
+    },
+    {
+      "brand": "SUZUKI",
+      "price": 1500,
+      "model": "VITARA",
+      "kilometers": 180000,
+      "published": true,
+      "fuel": "Βενζίνη",
+      "images": [
+        "https://i.postimg.cc/K8sVqkbh/bmw2.jpg"
+      ],
+      "id": 12,
+      "description": "Αγροτικο",
+      "year": 2010
     }
   ]
 }
