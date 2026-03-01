@@ -277,3 +277,43 @@ input::placeholder{color:rgba(255,255,255,.45)}
     width: 100%;
   }
 }
+/* CUSTOM SELECT */
+.custom-select {
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+.select-selected {
+  background: #111;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+.select-items {
+  position: absolute;
+  background: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.2);
+  top: 110%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.select-items div {
+  padding: 10px 12px;
+  color: white;
+}
+
+.select-items div:hover {
+  background: #25D366;
+}
+
+.select-hide {
+  display: none;
+}
