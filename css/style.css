@@ -270,3 +270,24 @@ input::placeholder{color:rgba(255,255,255,.45)}
 #fuelFilter option:hover {
   background-color: #222;
 }
+/* ===== Κεντράρισμα στα info boxes (car details) ===== */
+
+.spec,
+.specBox,
+.detailBox {
+  text-align: center;
+}
+
+/* τίτλος μέσα στο κουτάκι */
+.spec h4,
+.specBox h4,
+.detailBox h4 {
+  text-align: center;
+}
+
+/* τιμή (έτος / km / καύσιμο) */
+.spec p,
+.specBox p,
+.detailBox p {
+  text-align: center;
+}
