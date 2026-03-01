@@ -82,7 +82,7 @@ function toggleLightbox(src){
     document.getElementById("km").textContent = car.kilometers ?? "—";
     document.getElementById("fuel").textContent = car.fuel ?? "—";
     document.getElementById("desc").textContent = car.description || "";
-    document.getElementById("color").textContent = car.color ?? "—";
+    
 
     const imgs = (car.images && car.images.length) ? car.images : [""];
     const main = document.getElementById("mainImg");
