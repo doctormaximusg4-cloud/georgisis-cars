@@ -5,7 +5,7 @@
       "price": 12500,
       "model": "A6",
       "kilometers": 130000,
-      "published": false,
+      "published": true,
       "fuel": "Diesel",
       "images": [
         "https://i.postimg.cc/XY37jPGP/1.png",
