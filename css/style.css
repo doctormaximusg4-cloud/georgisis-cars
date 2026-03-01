@@ -291,3 +291,6 @@ input::placeholder{color:rgba(255,255,255,.45)}
 .detailBox p {
   text-align: center;
 }
+body.car-page .filters {
+  display: none;
+}
