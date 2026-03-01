@@ -317,7 +317,7 @@ input::placeholder{color:rgba(255,255,255,.45)}
 .select-hide {
   display: none;
 }
-/* Lightbox (zoom φωτογραφιών) */
+/* ====== KC Lightbox Zoom ====== */
 .kc-lightbox{
   position: fixed;
   inset: 0;
@@ -337,6 +337,5 @@ input::placeholder{color:rgba(255,255,255,.45)}
   box-shadow: 0 14px 40px rgba(0,0,0,.45);
 }
 
-/* δείξε ότι γίνεται zoom */
-.galleryMain img{ cursor: zoom-in; }
-.thumb img{ cursor: zoom-in; }
+/* δείχνει ότι γίνεται zoom */
+.galleryMain img, .thumb img { cursor: zoom-in; }
