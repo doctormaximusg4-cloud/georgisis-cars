@@ -297,3 +297,27 @@ body.car-page .filters {
 body.car-page .btn-search{
   display: none;
 }
+/* Call Floating Button */
+.call-float{
+  position: fixed;
+  bottom: 90px; /* ΠΑΝΩ από το WhatsApp */
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #007BFF;
+  color: white;
+  font-size: 26px;
+  border-radius: 50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  box-shadow: 0 8px 25px rgba(0,0,0,.4);
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.call-float:hover{
+  transform: scale(1.1);
+  background:#0056b3;
+}
