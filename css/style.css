@@ -355,3 +355,18 @@ body.car-page .btn-search{
   transform: scale(1.1);
   background:#0056b3;
 }
+.phone{
+  font-size: 13px;
+  color: #25D366;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.phone a{
+  color: #25D366;
+  text-decoration: none;
+}
+
+.phone a:hover{
+  text-decoration: underline;
+}
