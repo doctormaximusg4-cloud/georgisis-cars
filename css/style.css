@@ -316,6 +316,40 @@ body.car-page .btn-search{
   z-index: 9999;
   transition: 0.3s;
 }
+/* Call button animation */
+.call-float{
+  animation: callPulse 2s infinite;
+  position: fixed; /* ΣΙΓΟΥΡΙΑ για το label */
+}
+
+/* Pulse effect */
+@keyframes callPulse{
+  0%{
+    box-shadow: 0 0 0 0 rgba(0,123,255,.7);
+  }
+  70%{
+    box-shadow: 0 0 0 18px rgba(0,123,255,0);
+  }
+  100%{
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+  }
+}
+
+/* Label "Κλήση" */
+.call-float::after{
+  content: "Κλήση";
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,.8);
+  color: white;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  opacity: .95;
+}
 
 .call-float:hover{
   transform: scale(1.1);
