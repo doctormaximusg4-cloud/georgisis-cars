@@ -444,3 +444,11 @@ body.car-page .btn-search{
   background:#005fa3;
   transform:translateY(-1px);
 }
+/* Mobile bottom spacing for floating buttons */
+@media (max-width:768px){
+
+  body{
+    padding-bottom:140px;
+  }
+
+}
