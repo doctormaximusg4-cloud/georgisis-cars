@@ -376,3 +376,51 @@ body.car-page .btn-search{
 .phone a:hover{
   text-decoration: underline;
  }
+/* ===== Mobile Fix car.html ===== */
+
+.desc{
+  display:block;
+  width:100%;
+  clear:both;
+  margin-bottom:18px;
+  line-height:1.7;
+  overflow-wrap:break-word;
+  word-break:break-word;
+}
+
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  width:100%;
+  clear:both;
+  margin-top:18px;
+}
+
+.actions .btn{
+  flex:1 1 220px;
+}
+
+#cargrContainer{
+  width:100%;
+  clear:both;
+  margin-top:14px;
+}
+
+@media(max-width:768px){
+
+  .detailCard{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .actions{
+    flex-direction:column;
+  }
+
+  .actions .btn,
+  .cargr-btn{
+    width:100%;
+  }
+
+}
