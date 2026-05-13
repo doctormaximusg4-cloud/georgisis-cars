@@ -123,9 +123,9 @@ input::placeholder{color:rgba(255,255,255,.45)}
 .cardImg{
   width:100%;
   aspect-ratio: 16/10;
-  object-fit: cover;
+  object-fit: contain;
   display:block;
-  background:rgba(255,255,255,.06);
+  background:#111;
 }
 .cardBody{padding:14px}
 .cardTitle{font-weight:900; margin:0 0 6px}
